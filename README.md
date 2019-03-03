@@ -10,7 +10,7 @@ with continuous LOD properties in a new vertex buffer (targetBuffer).
 
 - This is an in-core method
 - It downsamples ~86M points to 5M points in ~5.45ms on a GTX 1080 => 15.9M points / ms.
-- Initial tests for an RTX 2080 TI have shown performances up to 44M points / ms.
+- Initial tests for an RTX 2080 TI have shown performances of roughly ~86M points to 3M points in ~2ms => 43M points / ms. For reference, a frame in VR has to be computed in around 11ms.
 - Each input point needs a level attribute in the alpha channel of the color
 - In VR, this method is distributed over multiple frames, 
   e.g. process 18M points per frame of the input buffer,
