@@ -4,6 +4,8 @@ Source for paper: "Real-Time Continuous Level of Detail Rendering of Point Cloud
 Markus Schütz, Katharina Krösl, Michael Wimmer,
 IEEE VR 2019, March, Osaka
 
+(preprint will follow)
+
 The compute shader ```filter_points.cs``` is executed for each point of the 
 full point cloud (inputBuffer) and it stores a selected subset 
 with continuous LOD properties in a new vertex buffer (targetBuffer).
