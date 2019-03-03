@@ -6,7 +6,7 @@ IEEE VR 2019, March, Osaka
 
 (preprint will follow)
 
-<img src="resources/clod.png" width="50%">
+<img src="resources/clod.png" width="80%">
 
 The compute shader ```filter_points.cs``` is executed for each point of the 
 full point cloud (inputBuffer) and it stores a selected subset 
