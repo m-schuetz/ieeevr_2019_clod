@@ -1,6 +1,11 @@
 #version 450
 
-// license: none, yet
+// author: Markus Schütz
+// license: MIT license (https://opensource.org/licenses/MIT)
+
+// Source for paper: "Real-Time Continuous Level of Detail Rendering of Point Clouds"
+// Markus Schütz, Katharina Krösl, Michael Wimmer
+// IEEE VR 2019, March, Osaka
 
 layout(location = 0) in vec3 aPosition;
 layout(location = 1) in vec4 aColor;

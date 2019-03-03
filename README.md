@@ -6,6 +6,8 @@ IEEE VR 2019, March, Osaka
 
 (preprint will follow)
 
+<img src="resources/clod.png" width="50%">
+
 The compute shader ```filter_points.cs``` is executed for each point of the 
 full point cloud (inputBuffer) and it stores a selected subset 
 with continuous LOD properties in a new vertex buffer (targetBuffer).
