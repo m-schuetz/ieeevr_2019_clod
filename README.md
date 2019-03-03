@@ -26,3 +26,5 @@ with continuous LOD properties in a new vertex buffer (targetBuffer).
 - Distribution of the downsampling step over multiple frames is actually not necessary anymore for the 2080 TI.
   The same models with the same LOD can be downsampled and rendered at 90FPS in a single frame on a 2080 TI, 
   compared to a 1080 that required distribution of the downsampling step over ~5 frames.
+
+An out-of-core continuous LOD method for arbitarily large point clouds is currently in work.
