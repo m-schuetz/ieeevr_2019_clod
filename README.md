@@ -4,9 +4,11 @@ Source for paper: "Real-Time Continuous Level of Detail Rendering of Point Cloud
 Markus Schütz, Katharina Krösl, Michael Wimmer,
 IEEE VR 2019, March, Osaka
 
-This compute shader is executed for each point of the 
+The compute shader ```filter_points.cs``` is executed for each point of the 
 full point cloud (inputBuffer) and it stores a selected subset 
 with continuous LOD properties in a new vertex buffer (targetBuffer).
+
+```pointcloud_clod.vs``` then renders the downsampled vertex buffer and also computes point sizes based on the sampling density / target spacing.
 
 - This is an in-core method
 - It downsamples ~86M points to 5M points in ~5.45ms on a GTX 1080 => 15.9M points / ms.
