@@ -4,7 +4,9 @@ Source for paper: "Real-Time Continuous Level of Detail Rendering of Point Cloud
 Markus Schütz, Katharina Krösl, Michael Wimmer,
 IEEE VR 2019, March, Osaka
 
-(preprint will follow)
+The full source code is part of the [Fenek](https://github.com/m-schuetz/Fenek) live coding framework.
+
+Preprints are available [here](https://www.cg.tuwien.ac.at/research/publications/2019/schuetz-2019-CLOD/).
 
 <img src="resources/clod.png" width="80%">
 
